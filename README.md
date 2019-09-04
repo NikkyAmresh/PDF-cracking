@@ -1,5 +1,5 @@
 # PDF-cracker
-Numerical password cracker 
+A simplest Numerical password cracker 
 
 Password of given file is : 142
 
