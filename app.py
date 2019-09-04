@@ -9,8 +9,6 @@ def unlock(i):
             print("Trying password : " +str(i))
             sys.stdout.write('\x1b[1A')
             sys.stdout.write('\x1b[2K')
-            if i%10000==0:
-                print(i)
             if str(reader.decrypt(str(i)))=='1':
                 pswd=i
                 for i in range(reader.getNumPages()):
